@@ -1,0 +1,27 @@
+html,
+body,
+* {
+  cursor: none !important;
+}
+
+/* Ensure interactive elements work properly with custom cursor */
+button,
+a,
+input,
+textarea,
+select,
+[role="button"],
+[role="link"],
+[data-cursor-hover] {
+  cursor: none !important;
+}
+
+/* Optimize animations for custom cursor */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Ensure cursor stays above all content */
+body {
+  overflow-x: hidden;
+}
