@@ -87,14 +87,66 @@ export function About({ setPage }: { setPage: (p: Page) => void }) {
             </span>
           </div>
           <div style={{ borderTop: "1px solid #BBBBC8" }}>
-            {[
-              { cat: "Product Thinking", items: ["Problem framing", "Strategy & narrative", "Roadmap input", "Trade-off mapping"] },
-              { cat: "Workflow Design", items: ["Decision flows", "Process modeling", "State systems", "Editable itineraries"] },
-              { cat: "Interaction Design", items: ["Component logic", "Microinteractions", "Affordance design", "Reversibility patterns"] },
-              { cat: "UX Research", items: ["Workflow interviews", "Usability testing", "Behavioral mapping", "Synthesis"] },
-              { cat: "Prototyping", items: ["Figma · Make", "Logic-driven flows", "Motion specs", "Validation builds"] },
-              { cat: "Information Architecture", items: ["Object modeling", "Taxonomy", "Navigation systems", "Hierarchy audits"] },
-              { cat: "AI-Assisted Design", items: ["Prompt-state design", "Reasoning surfaces", "Confidence affordances", "Human-in-the-loop"] },
+                {[
+  {
+    cat: "Product Thinking",
+    items: [
+      "Problem framing",
+      "Product strategy",
+      "Feature prioritization",
+      "Decision frameworks"
+    ]
+  },
+
+  {
+    cat: "Workflow Design",
+    items: [
+      "User flow mapping",
+      "Journey design",
+      "Process optimization",
+      "Task organization"
+    ]
+  },
+
+  {
+    cat: "Systems Design",
+    items: [
+      "System architecture",
+      "Workflow planning",
+      "Process structures",
+      "Scalable solutions"
+    ]
+  },
+
+  {
+    cat: "Research & Analysis",
+    items: [
+      "Quantitative analysis",
+      "Qualitative research",
+      "PRD documentation",
+      "Data visualization"
+    ]
+  },
+
+  {
+    cat: "Information Architecture",
+    items: [
+      "Content hierarchy",
+      "Navigation systems",
+      "Taxonomy design",
+      "User pathways"
+    ]
+  },
+
+  {
+    cat: "AI Product Systems",
+    items: [
+      "Human-AI workflows",
+      "Decision support systems",
+      "Prompt-driven experiences",
+      "AI interaction patterns"
+    ]
+  }
             ].map((row, i) => (
               <div
                 key={row.cat}
