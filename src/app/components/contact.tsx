@@ -1,3 +1,5 @@
+"use client";
+
 import { useState } from "react";
 import { PulseDot, SYNE, INTER, MONO } from "./ui-bits";
 
@@ -38,7 +40,7 @@ export function Contact() {
   {
     label: "Resume",
     value: "Download PDF",
-    href: "/MYRESUME.pdf",
+    href: "/Resumemine.pdf",
     download: true,
   },
 ].map((row) => (
@@ -68,11 +70,12 @@ export function Contact() {
   );
 }
 
-function ContactRow({ label, value, href }: { label: string; value: string; href: string }) {
+function ContactRow({ label, value, href, download }: { label: string; value: string; href: string; download?: boolean }) {
   const [hover, setHover] = useState(false);
   return (
     <a
       href={href}
+      download={download}
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
       style={{

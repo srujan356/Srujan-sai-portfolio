@@ -1,5 +1,13 @@
-import { useState, useEffect, useRef, type ReactNode, type CSSProperties } from "react";
+import React, { useState, useEffect, useRef, type ReactNode, type CSSProperties } from "react";
 import type { Page } from "./nav";
+
+declare global {
+  namespace JSX {
+    interface IntrinsicElements {
+      [elemName: string]: any;
+    }
+  }
+}
 
 /* ── Fonts & Keyframes ──────────────────────────────────────────────── */
 const injectFonts = () => {
