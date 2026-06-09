@@ -38,7 +38,7 @@ export function Contact() {
   {
     label: "Resume",
     value: "Download PDF",
-    href: "/MY RESUME.pdf",
+    href: "/MYRESUME.pdf",
     download: true,
   },
 ].map((row) => (

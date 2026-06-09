@@ -44,7 +44,7 @@ export function Nav({ page, setPage }: { page: Page; setPage: (p: Page) => void 
         </div>
         <div className="flex justify-end" style={{ width: 120 }}>
           <a
-  href="/MY RESUME.pdf"
+  href="/MYRESUME.pdf"
   target="_blank"
   rel="noopener noreferrer"
   onMouseEnter={(e) => {

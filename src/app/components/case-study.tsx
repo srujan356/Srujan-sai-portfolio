@@ -444,7 +444,7 @@ function ProductPreviewSection() {
   className="sn-btn-primary"
    onClick={() =>
     window.open(
-      "https://www.figma.com/community/file/1642265228135381361",
+      "https://www.figma.com/proto/QEaa9XPKQSjlZ5oFycitcy/Travel-app--all-models--?page-id=188%3A35&node-id=2230-3422&viewport=-15253%2C8774%2C0.63&t=QPopdQ8cvcNpnd1j-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=349%3A225",
       "_blank"
     )
   }
@@ -537,7 +537,7 @@ function ProductPreviewSection() {
         "font-size 300ms cubic-bezier(0.22,1,0.36,1)",
     }}
   >
-    See screens →
+    Prototype →
   </span>
 </button>
           </div>
